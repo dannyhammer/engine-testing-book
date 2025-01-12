@@ -1,0 +1,6 @@
+[book]
+authors = ["Danny Hammer"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Proper Chess Engine Testing"
