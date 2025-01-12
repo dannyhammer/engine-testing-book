@@ -8,4 +8,8 @@ This repository uses [mdBook](https://rust-lang.github.io/mdBook/), and can be v
 mdbook serve --open
 ```
 
-I intend to publish this book to a static webpage (once I figure out how!).
+Alternatively, you can view the published book [here](https://dannyhammer.github.io/engine-testing-guide/).
+
+## Feedback
+
+I am very open to feedback. If you notice incorrect information within the guide or want to make other improvements, please make a PR! 
