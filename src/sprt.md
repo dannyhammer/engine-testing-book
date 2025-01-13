@@ -7,7 +7,7 @@ In short, "running SPRT" involves having the old version of the engine play agai
 
 This guide will go over the basics of how to run SPRT and interpret the results.
 I am not a statistician, so I will gloss over the theory behind the math.
-There are various links within this section (and more [at the end](#references)) that you can click on for further reading, if you are interested in learning more.
+There are various links within this section (and more [at the end](conclusion.md#references)) that you can click on for further reading, if you are interested in learning more.
 
 ## The Basics
 
@@ -100,7 +100,8 @@ Elo   | 13.87 +- 7.58 (95%)
 
 The estimated Elo difference between the two engines being tested is between `[6.29, 21.45]`, and the test was ran with a `95%` confidence threshold.
 
-These values should _not_ be trusted for accuracy, as they are only estimates, and Elo ratings are [completely dependant on the sample space](https://en.wikipedia.org/wiki/Elo_rating_system).
+These values should _not_ be trusted for accuracy, as they are only estimates, and Elo ratings are [dependant on the sample space](https://en.wikipedia.org/wiki/Elo_rating_system#Ratings_of_computers).
+In the `X +- Y` format, `X` is the estimated Elo difference and `Y` is the error margin.
 In general, if `X > Y`, you can assume (within the confidence threshold) that the result is sound and that there is a measurable Elo difference between the engines.
 If `X <= Y`, you must collect more samples ("small sample size" or "sss") by letting the test continue to run.
 

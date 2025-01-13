@@ -1,7 +1,8 @@
 # Summary
 
 -   [Intro](intro.md)
--   [Overview of Engine Testing](overview.md)
+-   [Engine Strength Testing](strength-testing.md)
 -   [Sequential Probability Ratio Test](sprt.md)
 -   [OpenBench](openbench.md)
--   [Additional Resources](resources.md)
+-   [Determining Engine Strength](determining-strength.md)
+-   [Conclusion](conclusion.md)
